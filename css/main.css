@@ -1,3 +1,52 @@
+/* selector */
 body {
-  background-color: blue;
+  background-color: rgb(146, 168, 209);
+    /* change background color - takes rgb(#, #, #), #000000, color name*/
+  color: white;
+    /* hange font color - same values as bg color*/
+  font-family: sans-serif;
+    /* change font*/
+  font-size: 12px;
+    /* change font size*/
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin: 100px;
+    /* margin take 4 potential valuse
+      1 # = all margins
+      2 # = 1st#=top/bottom, 2nd#=left/right (margin: 100px, 50px;),
+      3 # = 1st#=top, 2nd#=left/right, 3rd#=bottom (margin: 100px, 50px, 75px;)
+      4 # = 1st#=top, 2nd#=right, 3rd#=bottom, 4th#=left (margin: 100px, 50px, 75px, 25px;)*/
+}
+h1 {
+  font-size: 60px;
+  text-align: center;
+}
+a {
+  font-size: 12px;
+  color: rgb(27, 202, 201);
+    /* link color*/
+  text-decoration: none;
+    /* remove anchor underline*/
+  text transform: uppercase;
+    /* control case of text - uppercase, lowercase, sentence, title */
+  letter-spacing: 3px;
+}
+a:hover {
+  color: white
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+li {
+  margin: 25px 0 0 0
+}
+#images {
+  background-color: rgb(146, 168, 209);
+  margin: 0;
+  text-align: center;
+}
+#images img {
+  max-width: 100%;
+  margin: 25px 0;
 }
