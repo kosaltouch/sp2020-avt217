@@ -1,0 +1,30 @@
+/* selector */
+body {
+  background-color: rgb(146, 168, 209);
+  color: white;
+  font-family: sans-serif;
+  font-size: 12px;
+  letter-spacing: 2px;
+  text-transform: none;
+  margin: 100px;
+}
+
+h2 {
+
+}
+
+ul {
+  list-style-type: ;
+  padding: none;
+}
+
+a {
+  font-size: 12px;
+  color: white;
+    /* link color*/
+  text-decoration: none;
+    /* remove anchor underline*/
+  text transform: none;
+    /* control case of text - uppercase, lowercase, sentence, title */
+  letter-spacing: 3px;
+}

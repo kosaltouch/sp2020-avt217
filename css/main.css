@@ -17,11 +17,12 @@ body {
       3 # = 1st#=top, 2nd#=left/right, 3rd#=bottom (margin: 100px, 50px, 75px;)
       4 # = 1st#=top, 2nd#=right, 3rd#=bottom, 4th#=left (margin: 100px, 50px, 75px, 25px;)*/
 }
+
 h1 {
   font-size: 60px;
   text-align: center;
-
 }
+
 a {
   font-size: 12px;
   color: white;
@@ -32,21 +33,26 @@ a {
     /* control case of text - uppercase, lowercase, sentence, title */
   letter-spacing: 3px;
 }
+
 a:hover {
   color: rgb(247, 202, 201);
 }
+
 ul {
   list-style-type: none;
   padding: 0;
 }
+
 li {
   margin: 25px 0 0 0
 }
+
 #images {
   background-color: rgb(146, 168, 209);
   margin: 0;
   text-align: center;
 }
+
 #images img {
   max-width: 100%;
   margin: 25px 0;
