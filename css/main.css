@@ -9,7 +9,7 @@ body {
   font-size: 12px;
     /* change font size*/
   letter-spacing: 2px;
-  text-transform: uppercase;
+  text-transform: none;
   margin: 100px;
     /* margin take 4 potential valuse
       1 # = all margins
