@@ -9,7 +9,7 @@ body {
   font-size: 12px;
     /* change font size*/
   letter-spacing: 2px;
-  text-transform: none;
+  text-transform: uppercase;
   margin: 100px;
     /* margin take 4 potential valuse
       1 # = all margins
@@ -54,6 +54,6 @@ li {
 }
 
 #images img {
-  max-width: 100%;
-  margin: 25px 0;
+  max-width: 75%;
+  margin: 50px 0;
 }

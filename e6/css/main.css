@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  overflow: hidden;
+}
+
+.container {
+  margin: -50px -10%;
+  width 130vw;
+}
+
+.block-1, .block-2, .block-3 {
+  width: 100px;
+  height: 100px;
+  float: left;
+  opacity: .7;
+}
+
+.block-1 {
+  background-color: rgb(146, 168, 209);
+  margin: 50px;
+}
+.block-2 {
+  background-color: rgb(247, 202, 201);
+  margin: -50px;
+}
+.block-3 {
+  background-color: white;
+  margin: -50px;
+}
+
+    .diamond-1{
+      width: 0;
+      height: 0;
+      border: 50px solid transparent;
+      border-bottom-color: red;
+      position: relative;
+      top: -50px;
+    }
+    .diamond-2{
+        width: 0;
+        height: 0;
+        border: 50px solid transparent;
+        border-bottom-color: red;
+        position: relative;
+        top: -50px;
+      }
+.diamond-3{
+  width: 0;
+  height: 0;
+  border: 50px solid transparent;
+  border-bottom-color: red;
+  position: relative;
+  top: -50px
+}
