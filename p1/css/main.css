@@ -10,15 +10,34 @@ body {
 
 h1 {
   text-align: center;
-  font-size:
+  font-size: 60px;
+  margin-bottom: -10px;
 }
 
 h2 {
   text-align: center;
-  font-size:
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+a {
+  font-size: 20px;
+  color: rgb(247, 202, 201);
+    /* link color*/
+  text-decoration: none;
+    /* remove anchor underline*/
+  text transform: uppercase;
+    /* control case of text - uppercase, lowercase, sentence, title */
+  letter-spacing: 3px;
+}
+
+a:hover {
+  color: rgb(247, 202, 201);
+  text-decoration:
 }
 
 body {
   text-align: center;
-  font-size:
+  font-size: 20px;
+  font
 }
