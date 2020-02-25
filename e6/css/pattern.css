@@ -42,14 +42,17 @@ body {
 .block-1 {
   background-color: rgb(146, 168, 209);
   margin: 50px;
+  transform: rotate(45deg);
 }
 .block-2 {
   background-color: rgb(247, 202, 201);
   margin: -50px;
+  transform: rotate(45deg);
 }
 .block-3 {
   background-color: white;
   margin: -50px;
+  transform: rotate(45deg);
 }
 
 .ring-1, .ring-2, .ring-3 {
@@ -136,12 +139,15 @@ body {
   .blockring-1 {
     border-color: rgb(146, 168, 209);
     margin: -25px;
+    border-radius: 25%;
   }
   .blockring-2 {
     border-color: rgb(247, 202, 201);
     margin: -25px;
+    border-radius: 25%;
   }
   .blockring-3 {
     border-color: silver;
     margin: -25px;
+    border-radius: 25%;
   }
