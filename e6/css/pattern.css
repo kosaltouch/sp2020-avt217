@@ -1,0 +1,147 @@
+body {
+  margin: 0;
+  overflow: hidden;
+}
+
+.container {
+  margin: -50px -10%;
+  width 130vw;
+}
+
+.block-1, .block-2, .block-3 {
+  width: 100px;
+  height: 100px;
+  float: left;
+  opacity: .7;
+}
+.ring-1, .ring-2, .ring-3 {
+  width: 100px;
+  height: 100px;
+  float: left;
+  opacity: .7;
+}
+.circle-1, .circle-2, .circle-3 {
+  width: 100px;
+  height: 100px;
+  float: left;
+  opacity: .7;
+}
+.square-1, .square-2, .square-3 {
+  width: 100px;
+  height: 100px;
+  float: left;
+  opacity: .7;
+}
+.blockring-1, .blockring-2, .blockring-3 {
+  width: 100px;
+  height: 100px;
+  float: left;
+  opacity: .7;
+}
+
+.block-1 {
+  background-color: rgb(146, 168, 209);
+  margin: 50px;
+}
+.block-2 {
+  background-color: rgb(247, 202, 201);
+  margin: -50px;
+}
+.block-3 {
+  background-color: white;
+  margin: -50px;
+}
+
+.ring-1, .ring-2, .ring-3 {
+  border-radius: 50%;
+  border: 10px solid black;
+  float: left;
+  width: 200px;
+  height: 200px;
+  border-color: black;
+  margin: 0;
+}
+.ring-1 {
+  border-color: rgb(146, 168, 209);
+  margin: -25px;
+}
+.ring-2 {
+  border-color: rgb(247, 202, 201);
+  margin: -25px;
+}
+.ring-3 {
+  border-color: silver;
+  margin: -25px;
+}
+
+.circle-1, .circle-2, .circle-3 {
+  border-radius: 50%;
+  border: 10px solid black;
+  float: left;
+  width: 125px;
+  height: 125px;
+  border-color: black;
+  margin: 0;
+}
+  .circle-1 {
+    border-color: rgb(146, 168, 209);
+    background-color: rgb(146, 168, 209);
+    margin: -50px;
+  }
+  .circle-2 {
+    border-color: rgb(247, 202, 201);
+    background-color: rgb(247, 202, 201);
+    margin: -50px;
+  }
+  .circle-3 {
+    border-color: silver;
+    background: silver;
+    margin: 50px;
+  }
+
+.square-1, .square-2, .square-3 {
+  float: left;
+  width: 75px;
+  height: 75px;
+  border-color: silver;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 100px solid silver;
+  opacity: .7;
+  }
+  .square-1 {
+    border-color: rgb(146, 168, 209);
+    background-color: rgb(146, 168, 209);
+    margin: -50px;
+  }
+  .square-2 {
+    border-color: rgb(247, 202, 201);
+    background-color: rgb(247, 202, 201);
+    margin: 0px;
+  }
+  .square-3 {
+    border-color: silver;
+    background: silver;
+    margin: 50px;
+  }
+
+  .blockring-1, .blockring-2, .blockring-3 {
+    border: 10px solid black;
+    float: left;
+    width: 200px;
+    height: 200px;
+    border-color: black;
+    margin: 0;
+  }
+  .blockring-1 {
+    border-color: rgb(146, 168, 209);
+    margin: -25px;
+  }
+  .blockring-2 {
+    border-color: rgb(247, 202, 201);
+    margin: -25px;
+  }
+  .blockring-3 {
+    border-color: silver;
+    margin: -25px;
+  }
