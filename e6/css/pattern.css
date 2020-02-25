@@ -151,3 +151,80 @@ body {
     margin: -25px;
     border-radius: 25%;
   }
+
+  .roundblock-1, .roundblock-2, .roundblock-3, .roundblock-4, .roundblock-5, .roundblock-6 {
+    float: left;
+  }
+  .roundblock-1 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(146, 168, 209);
+    border-width: 10px;
+    border-color: rgb(146, 168, 209);
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    border-radius: 25%;
+    transform: rotate(45deg);
+  }
+  .roundblock-2 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(247, 202, 201);
+    border-width: 10px;
+    border-color: rgb(247, 202, 201);
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    border-radius: 25%;
+  }
+  .roundblock-3 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(150, 123, 182);
+    border-width: 10px;
+    border-color: rgb(150, 123, 182);
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    border-radius: 25%;
+    transform: rotate(45deg);
+  }
+  .roundblock-4 {
+    width: 100px;
+    height: 100px;
+    background-color: silver;
+    border-width: 10px;
+    border-color: silver;
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    border-radius: 25%;
+  }
+  .roundblock-5 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(170, 240, 209);
+    border-color: rgb(170, 240, 209);
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    border-radius: 25%;
+    transform: rotate(45deg);
+  }
+  .roundblock-6 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(250,250,210);
+    border-width: 10px;
+    border-color: rgb(250,250,210);
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    border-radius: 25%;
+  }
