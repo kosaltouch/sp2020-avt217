@@ -98,7 +98,7 @@ a:hover {
   width: 900px;
   margin: 100px auto;
   }
-  .header, .body, .byline {
+  .header, .body, .caption, .post-footer {
     background-color: rgb(247, 202, 201);
     float: left;
   }
@@ -109,24 +109,86 @@ a:hover {
     .body {
       width: 750px;
       height: 300px;
-      margin: ;
+      margin: 100px 25px 25px 0;
     }
     .caption {
       width: 125px;
       height: 150px;
+      margin: 100px 0 0;
     }
-    .byline {
+    .post-footer {
       width: 750px;
-      height: 25px;
-      margin: ;
-    }
-    .margin100 {
-      margin: 100px 0px;
-    }
-    .margin25 {
-      margin: 0 25px;
+      height: 50px;
     }
     .percentage {
       width: 50%;
       height: 100px;
     }
+
+* {
+  box-sizing: border-box;
+}
+.court {
+  width: 900px;
+  margin: 100px auto;
+}
+  .side, .back, .service {
+    background-color: rgb(247, 202, 201);
+    float: left;
+    border: 5px solid white;
+  }
+      .side {
+        width: 150px;
+        height: 600px;
+      }
+      .back {
+        width: 600px;
+        height: 200px
+      }
+      .service {
+        width: 300px;
+        height: 400px;
+      }
+      .single {
+        width: 600px;
+        float: left;
+      }
+
+.cali-case {
+  width: 800px;
+  margin: 100px auto;
+}
+  .small-retangle, .longskinny-retangle, .longthick-retangle, .big-retangle {
+    background-color: rgb(247, 202, 201);
+    float: left;
+    border: 5px solid white;
+  }
+      .threefourth {
+        width: 600px;
+        float: left
+      }
+      .smallgroup {
+        width: 100px;
+        height: 400px;
+      }
+      .longgroup {
+        width: 500px;
+        height: 400px;
+        float: left;
+      }
+          .small-retangle {
+            width: 100px;
+            height: 200px;
+          }
+          .longskinny-retangle {
+            width: 100px;
+            height: 400px;
+          }
+          .longthick-retangle {
+            width: 200px;
+            height: 400px;
+          }
+          .big-retangle {
+            width: 200px;
+            height: 600px;
+          }
