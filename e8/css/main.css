@@ -6,6 +6,7 @@ body {
   letter-spacing: 2px;
   text-transform: none;
   margin: 100px;
+  text-align: center;
 }
 
 a {
@@ -167,11 +168,17 @@ a:hover {
         width: 600px;
         float: left
       }
-      .smallgroup {
+      .smallgroup-vertical {
         width: 100px;
         height: 400px;
         float: left;
       }
+      .longsmallgroup-horizonal {
+        width: 800px;
+        height: 200px;
+        float: left;
+      }
+
       .longgroup {
         width: 500px;
         height: 400px;
