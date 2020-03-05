@@ -158,7 +158,7 @@ a:hover {
   width: 800px;
   margin: 100px auto;
 }
-  .small-retangle, .longskinny-retangle, .longthick-retangle, .big-retangle {
+  .small-rectangle, .longskinny-rectangle, .longthick-rectangle, .big-rectangle {
     background-color: rgb(247, 202, 201);
     float: left;
     border: 5px solid white;
@@ -170,25 +170,26 @@ a:hover {
       .smallgroup {
         width: 100px;
         height: 400px;
+        float: left;
       }
       .longgroup {
         width: 500px;
         height: 400px;
         float: left;
       }
-          .small-retangle {
+          .small-rectangle {
             width: 100px;
             height: 200px;
           }
-          .longskinny-retangle {
+          .longskinny-rectangle {
             width: 100px;
             height: 400px;
           }
-          .longthick-retangle {
+          .longthick-rectangle {
             width: 200px;
             height: 400px;
           }
-          .big-retangle {
+          .big-rectangle {
             width: 200px;
             height: 600px;
           }
