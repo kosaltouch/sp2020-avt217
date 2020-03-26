@@ -32,6 +32,7 @@ a {
   text transform: uppercase;
     /* control case of text - uppercase, lowercase, sentence, title */
   letter-spacing: 3px;
+  align-content: center;
 }
 
 a:hover {
