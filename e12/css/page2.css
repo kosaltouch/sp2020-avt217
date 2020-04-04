@@ -1,0 +1,82 @@
+body {
+  background-color: black;
+  margin: 0;
+  background: url(../images/peacookingoldappletree.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-color: beige;
+}
+.hcontainer {
+  width: 80vw;
+  height: 0px;
+  margin: auto;
+  background-color: blue;
+}
+.header {
+  width: 45%;
+  height: 100px;
+  text-align: center;
+  font-family: Garamond, sans-serif;
+  font-size: 23px;
+  color: black;
+  background-color: blue;
+}
+.blcontainer {
+  width: 80vw;
+  margin: 50px auto;
+  background-color: red;
+}
+.byline {
+  width: 45%;
+  text-align: center;
+  font-family: Garamond, sans-serif;
+  font-size: 12px;
+  color: black;
+  margin-top: 50px;
+}
+.chptcontainer {
+  width: 80vw;
+  margin: 50px auto;
+  background-color: yellow;
+}
+.chapter {
+  width: 30%;
+  text-align: center;
+  margin-top: 0px;
+  font-family: Garamond, sans-serif;
+  font-size: 30px;
+  color: black;
+}
+.mcontainer {
+  width: 80vw;
+  height: 100px;
+  margin: 100px auto;
+  background-color: blue;
+}
+.maintext {
+  width: 50%;
+  margin: 30% 0 0 0;
+  height: 100px;
+  font-family: Segoe UI, sans-serif;
+  color: black;
+}
+
+@media only screen and (max-width: 1000px) {
+  body {
+    background-color: black;
+  }
+  .container {
+    margin: 50px auto;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  body {
+    background-color: black;
+  }
+  .container {
+    margin: 50px auto;
+  }
+}

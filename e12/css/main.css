@@ -1,0 +1,22 @@
+body {
+  background-color: rgb(146, 168, 209);
+  color: white;
+  font-family: sans-serif;
+  font-size: 18px;
+  letter-spacing: 2px;
+  text-transform: none;
+  margin: 100px;
+}
+
+a {
+  font-size: 12px;
+  color: white;
+  text-decoration: none;
+  text transform: none;
+  letter-spacing: 3px;
+  align-content: center;
+}
+
+a:hover {
+  color: rgb(247, 202, 201);
+}
