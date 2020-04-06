@@ -12,7 +12,7 @@ body {
   width: 80vw;
   height: 0px;
   margin: auto;
-  background-color: blue;
+  /*background-color: blue;*/
 }
 .header {
   width: 45%;
@@ -21,12 +21,12 @@ body {
   font-family: Garamond, sans-serif;
   font-size: 23px;
   color: white;
-  background-color: blue;
+  /*background-color: blue;*/
 }
 .blcontainer {
   width: 80vw;
   margin: 150px auto;
-  background-color: red;
+  /*background-color: red;*/
 }
 .byline {
   width: 45%;
@@ -39,7 +39,7 @@ body {
 .chptcontainer {
   width: 80vw;
   margin: 50px auto;
-  background-color: yellow;
+  /*background-color: yellow;*/
 }
 .chapter {
   width: 30%;
@@ -53,7 +53,7 @@ body {
   width: 80vw;
   height: 100px;
   margin: 100px auto;
-  background-color: blue;
+  /*background-color: blue;*/
 }
 .maintext {
   width: 50%;
