@@ -1,0 +1,63 @@
+body {
+  /* background-color: red; */
+  margin: 0px;
+}
+#container {
+  background-color: rgb(146, 168, 209);
+  width: 75%;
+  margin: 100px auto;
+  padding: 100px;
+}
+h1.google {
+  font-size: 50px;
+  font-weight: ;
+  font-family: 'Handlee', cursive;
+}
+h2.google {
+    font-size: 75px;
+    font-weight: ;
+    font-family: 'Shadows Into Light', cursive;
+}
+h3.google {
+    font-size: 75px;
+    font-weight: ;
+    font-family: 'Permanent Marker', cursive;
+}
+h4.google {
+    font-size: 75px;
+    font-weight: ;
+    font-family: 'Kalam', cursive;
+}
+h5.google {
+    font-size: 75px;
+    font-weight: ;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+h6.google {
+    font-size: 75px;
+    font-weight: ;
+    font-family: 'Neucha', cursive;
+}
+h7.google {
+    font-size: 75px;
+    font-weight: ;
+    font-family: 'Architects Daughter', cursive;
+}
+h8.google {
+    font-size: 75px;
+    font-weight: ;
+    font-family: 'Gochi Hand', cursive;
+}
+h9.google {
+    font-size: 75px;
+    font-weight: ;
+    font-family: 'Shadows Into Light Two', cursive;
+}
+
+a {
+  color: rgb(247, 202, 201);
+  /* transition: color 2s ease;*/
+}
+a:hover {
+  color: silver;
+}
